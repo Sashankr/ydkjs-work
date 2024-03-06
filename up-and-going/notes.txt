@@ -1,0 +1,4 @@
+
+Coersion
+
+The process of converting a variable of one type to another type.
