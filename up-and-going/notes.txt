@@ -1,4 +1,27 @@
-
 Coersion
-
 The process of converting a variable of one type to another type.
+
+Explicity coersion
+
+Converting a variable from one type to another can be done using built in methods.
+Ex: var a = "20";
+
+var aNumber = Number(a); // 20
+The Number method is a global available js method, to convert a variable to a string.
+
+Implicit coersion
+
+When we are comparing values in javascript of different type, ex string with number
+Javascript converts the type of left side variable to that of right side variable to match types, in loose comparison
+
+var a = "90";
+var b = 90;
+
+if(a == b){
+    console.log('a and b are loosely equal');
+}
+
+after implecit coersion 90 == 90 which is equal.
+
+Implicit coersion is generally termed as error prone and hard to understand,
+but it can actually make our programs better, if we learn the rules of implicit coersion.
